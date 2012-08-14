@@ -8,7 +8,7 @@ import org.nutz.dao.entity.annotation.*;
 */
 @PK({"id"})
 @Table("es_charge_order")
-public class ChargeOrder {
+public class Order {
 
 	/**
 	 * ID

@@ -13,11 +13,11 @@ import org.nutz.service.EntityService;
 import org.nutz.log.Log;
 import org.nutz.log.Logs;
 
-import com.esup.kongchong.bean.ChargeOrder;
+import com.esup.kongchong.bean.Tmp2;
 
-@At("/ChargeOrder")
+@At("/Tmp2")
 @IocBean(fields={"dao"})
-public class ChargeOrderModule extends EntityService<ChargeOrder>{
+public class Tmp2Module extends EntityService<Tmp2>{
 
     private static final Log log = Logs.get();
 	
@@ -26,10 +26,10 @@ public class ChargeOrderModule extends EntityService<ChargeOrder>{
 		if (rows < 1)
 			rows = 10;
 		Pager pager = dao().createPager(page, rows);
-		List<ChargeOrder> list = dao().query(ChargeOrder.class, null, pager);
+		List<Tmp2> list = dao().query(Tmp2.class, null, pager);
 		Map<String, Object> map = new HashMap<String, Object>();
 		if (pager != null) {
-			pager.setRecordCount(dao().count(ChargeOrder.class));
+			pager.setRecordCount(dao().count(Tmp2.class));
 			map.put("pager", pager);
 		}
 		map.put("list", list);
@@ -37,7 +37,7 @@ public class ChargeOrderModule extends EntityService<ChargeOrder>{
 	}
 	
 	@At
-	public boolean add(@Param("..") ChargeOrder obj){
+	public boolean add(@Param("..") Tmp2 obj){
 		try{
 			dao().insert(obj);
 			return true;
@@ -49,7 +49,7 @@ public class ChargeOrderModule extends EntityService<ChargeOrder>{
 	}
 	
 	@At
-	public boolean delete(@Param("..") ChargeOrder obj){
+	public boolean delete(@Param("..") Tmp2 obj){
 		try{
 			dao().delete(obj);
 			return true;
@@ -61,7 +61,7 @@ public class ChargeOrderModule extends EntityService<ChargeOrder>{
 	}
 	
 	@At
-	public boolean update(@Param("..") ChargeOrder obj){
+	public boolean update(@Param("..") Tmp2 obj){
 		try{
 			dao().update(obj);
 			return true;
