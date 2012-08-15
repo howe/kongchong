@@ -86,7 +86,8 @@
       <hr>
 
       <footer>
-        <p>&copy; 2012 Esup网游 空中充值系统</p>
+        <p align="center">
+       	&copy; 2012 <a href="http://www.esup.cn/" target="_blank">Esup网游</a> 版权所有  <a href="http://www.miibeian.gov.cn/" target="_blank">苏ICP备10226088号-3</a></p>
       </footer>
 
     </div> <!-- /container -->
@@ -95,7 +96,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./js/jquery.js"></script>
     <script src="./bootstrap/js/bootstrap-transition.js"></script>
     <script src="./bootstrap/js/bootstrap-alert.js"></script>
     <script src="./bootstrap/js/bootstrap-modal.js"></script>
@@ -108,5 +109,10 @@
     <script src="./bootstrap/js/bootstrap-collapse.js"></script>
     <script src="./bootstrap/js/bootstrap-carousel.js"></script>
     <script src="./bootstrap/js/bootstrap-typeahead.js"></script>
+    
+	<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0bfd0694a5044dce7fc6b0e8f9967a8e' type='text/javascript'%3E%3C/script%3E"));
+	</script>
 </body>
 </html>
