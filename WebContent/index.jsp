@@ -63,11 +63,6 @@
                 </ul>
               </li>
             </ul>
-            <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="Email">
-              <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -104,7 +99,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p>&copy; <a href="http://www.esup.cn/" target="_blank" title="2012 空中充值系统 - ESUP">2012 空中充值系统 - ESUP</a><a href="http://www.miibeian.gov.cn/" title="ICP备案" target="_blank">苏ICP备10226088号-3</a></p>
       </footer>
 
     </div> <!-- /container -->
