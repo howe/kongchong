@@ -46,6 +46,7 @@
               <li><a href="#">主页</a></li>
               <li><a href="#about">关于</a></li>
               <li><a href="#contact">联系</a></li>
+              <li><a href="query.jsp">充值卡查询</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">充值链接 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
