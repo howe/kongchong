@@ -14,8 +14,8 @@ var ioc = {
 			minIdle         : 10,
 			maxIdle         : 20,
 			defaultAutoCommit: false,
-			
-			validationQuery : "select 1"
+			validationQuery : 'select 1',
+			filters         : 'stat,log4j'
 		}
 	},
     dao : {

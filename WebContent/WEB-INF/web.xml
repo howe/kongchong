@@ -14,6 +14,7 @@
 		<servlet-name>DruidStatView</servlet-name>
 		<url-pattern>/druid/*</url-pattern>
 	</servlet-mapping>
+
 	<filter>
 		<filter-name>nutz</filter-name>
 		<filter-class>org.nutz.mvc.NutFilter</filter-class>
@@ -38,9 +39,9 @@
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-	
-	<error-page>  
-        <error-code>404</error-code>  
-        <location>/404.html</location>  
-</error-page>  
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.html</location>
+	</error-page>
 </web-app>
