@@ -4,18 +4,13 @@
 <head>
 <meta name="keywords" content="空中充值系统,点卡充值,点券,牛币,牛币充值,卡易售,官方充值,点券充值">
 <title>牛币充值 - 空中充值系统 - ESUP网游</title>
-<script type="text/javascript">
-  function hide(){
-    var para = document.getElementById("modal").className = "modal hide fade"; 
-  }
-</script>
 </head>
 
 <body>
 <div class="container">
 <%@include file="head.jsp"%>
 <form class="form-horizontal">
-  <legend>牛币充值</legend>
+  <legend><a href="http://www.fj123.cn/" title="斗牛棋牌" target="_blank">斗牛棋牌</a>充值</legend>
   <div class="well" style="max-width: 60%; margin: 0 auto 10px;">
     <div class="control-group">
       <label class="control-label" for="inputEmail">充值卡号</label>
