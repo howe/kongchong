@@ -43,7 +43,7 @@
           <a class="brand" href="#" style="color:#FFF" title="空中充值系统">空中充值系统</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">主页</a></li>
+              <li><a href="#">主页</a></li>
               <li><a href="#about">关于</a></li>
               <li><a href="#contact">联系</a></li>
               <li class="dropdown">
