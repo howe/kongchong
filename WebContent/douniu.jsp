@@ -11,7 +11,7 @@
 <div class="container">
 <%@include file="head.jsp"%>
 <form class="form-horizontal">
-  <legend><img src="http://www.fj123.cn/assets/ctx/beta1/style/images/index_03.gif" width="70" class="img-rounded"/><a href="http://www.fj123.cn/" title="斗牛棋牌" target="_blank">斗牛棋牌</a> 银子充值</legend>
+  <legend><img src="http://www.fj123.cn/assets/ctx/beta1/style/images/index_03.gif" width="70" class="img-rounded"/> <a href="http://www.fj123.cn/" title="斗牛棋牌" target="_blank">斗牛棋牌</a> 银子充值</legend>
   <div class="well" style="max-width: 60%; margin: 0 auto 10px;">
     <div class="control-group">
       <label class="control-label" for="inputEmail">充值卡号</label>
