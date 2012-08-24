@@ -8,18 +8,15 @@
 <meta name="author" content="@howechiang">
 <meta name="keywords" content="空中充值系统,点卡充值,点券,牛币,卡易售,官方充值,点券充值">
 <title>空中充值系统 - ESUP网游</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="空中充值系统">
-    <meta name="author" content="@howechiang">
-  </head>
+</head>
 
   <body>
   	<%@include file="head.jsp"%>
 
-    <div class="container">
+    <div class="container" align="center">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" align="center">
                 <div class="carousel-inner">
                   <div class="item active">
                     <img src="./bootstrap/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
@@ -48,7 +45,7 @@
               </div>
 
       <!-- Example row of columns -->
-      <div class="row">
+      <div class="row" align="left">
         <div class="span4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
