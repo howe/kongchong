@@ -32,7 +32,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-static navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -40,13 +40,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#" style="color:#FFF" title="空中充值系统">空中充值系统</a>
+          <a class="brand" href="#" title="空中充值系统"><strong>空中充值系统</strong></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+              <li class="divider-vertical"></li>
               <li><a href="#">主页</a></li>
+              <li class="divider-vertical"></li>
               <li><a href="#about">关于</a></li>
+              <li class="divider-vertical"></li>
               <li><a href="#contact">联系</a></li>
+              <li class="divider-vertical"></li>
               <li><a href="query.jsp">充值卡查询</a></li>
+              <li class="divider-vertical"></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">充值链接 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -116,6 +121,7 @@
                   <li><a href="#">更多...</a></li>
                 </ul>
               </li>
+              <li class="divider-vertical"></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
