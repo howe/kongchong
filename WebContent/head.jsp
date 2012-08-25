@@ -40,15 +40,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#" title="空中充值系统"><strong>空中充值系统</strong></a>
+          <a class="brand" href="index.jsp" title="空中充值系统"><strong>空中充值系统</strong></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="divider-vertical"></li>
-              <li><a href="#">主页</a></li>
+              <li><a href="index.jsp">主页</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="#about">关于</a></li>
+              <li><a href="#about" data-toggle="modal">关于</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="#contact">联系</a></li>
+              <li><a href="#contact" data-toggle="modal">联系</a></li>
               <li class="divider-vertical"></li>
               <li><a href="query.jsp">充值卡查询</a></li>
               <li class="divider-vertical"></li>
