@@ -55,7 +55,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">充值链接 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">QQ会员</a></li>
-                  <li><a href="battlenet_wow.jsp">战网一卡通</a></li>
+                  <li><a href="battlenet_wow.jsp">魔兽世界</a></li>
                   <li><a href="#">DNF黑钻</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">游戏分类</li>
