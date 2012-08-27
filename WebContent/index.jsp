@@ -10,45 +10,73 @@
 <title>空中充值系统 - ESUP网游</title>
 </head>
 
-  <body>
-  	<%@include file="head.jsp"%>
-
-    <div class="container" align="center">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-    <div id="myCarousel" class="carousel slide" align="center">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./bootstrap/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>First Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="./bootstrap/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Second Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="./bootstrap/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Third Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+<body>
+<%@include file="head.jsp"%>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Sidebar</li>
+          <li class="active"><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li class="nav-header">Sidebar</li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li class="divider"></li>
+          <li><a href="#">帮助</a></li>
+        </ul>
+      </div>
+      <!--/.well -->
+    </div>
+    <!--/span-->
+    <div class="span9">
+      <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" align="center">
+          <div class="carousel-inner">
+            <div class="item active"><a href="douniu.jsp"><img src="./images/douniu.jpg" alt=""></a>
+              <div class="carousel-caption">
+                <h4>斗牛棋牌网银子充值</h4>
+                <p>一起逗留，一起斗牛。</p>
               </div>
-
-      <!-- Example row of columns -->
-      <div class="row" align="left">
+            </div>
+            <div class="item"><img src="./images/dnf.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>地下城与勇士</h4>
+                <p>DNF黑钻充值</p>
+              </div>
+            </div>
+            <div class="item"><img src="./images/mh.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>梦幻西游</h4>
+                <p>网易一卡通充值</p>
+              </div>
+            </div>
+            <div class="item"><img src="./images/ms.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>魔兽世界</h4>
+                <p>战网一卡通充值</p>
+              </div>
+            </div>
+            <div class="item"><img src="./images/wm.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>完美世界</h4>
+                <p>完美一卡通充值</p>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a><a class="right carousel-control" href="#myCarousel" data-slide="next">›</a></div>
+      </div>
+      <div class="row-fluid">
         <div class="span4">
           <h2>关于我们</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p><a class="btn" href="#about" role="button" data-toggle="modal">查看详细 &raquo;</a></p>
         </div>
         <div id="about" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="aboutLabel" aria-hidden="true">
@@ -81,15 +109,15 @@
               <button class="btn" data-dismiss="modal">关闭</button>
             </div>
           </div>
+        <!--/span-->
         <div class="span4">
-          <h2>联系方式</h2>
+           <h2>联系方式</h2>
           <p>地址：江苏省南京市玄武区玄武大道699-8号</p>
           <p>电话：025-6******6</p>
           <p>邮件：<a href="mailto:info@esup.cn" target="_blank">info#esup.cn</a> #换成@</p>
           <br />
           <p><a class="btn" href="#contact" role="button" data-toggle="modal">更多详细 &raquo;</a></p>
-       </div>
-       
+        </div>
         <div id="contact" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -121,12 +149,21 @@
             </div>
           </div>
           
+        <!--/span-->
         <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>充值帮助</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p><a class="btn" href="#">详情 &raquo;</a></p>
         </div>
+        <!--/span-->
       </div>
+      <!--/row-->
+    </div>
+    <!--/row-->
+  </div>
+  <!--/span-->
+</div>
+<!--/row-->
 <%@include file="foot.jsp"%>
 </body>
 </html>
