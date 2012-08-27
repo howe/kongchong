@@ -32,7 +32,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-static navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -40,24 +40,88 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#" style="color:#FFF" title="空中充值系统">空中充值系统</a>
+          <a class="brand" href="index.jsp" title="空中充值系统"><strong>空中充值系统</strong></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="#">主页</a></li>
-              <li><a href="#about">关于</a></li>
-              <li><a href="#contact">联系</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="index.jsp">主页</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="#about" data-toggle="modal">关于</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="#contact" data-toggle="modal">联系</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="query.jsp">充值卡查询</a></li>
+              <li class="divider-vertical"></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">充值链接 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">QQ会员</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">战网一卡通</a></li>
+                  <li><a href="#">DNF黑钻</a></li>
                   <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li class="nav-header">游戏分类</li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">腾讯</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">QQ币</a></li>
+                      <li><a tabindex="-1" href="#">QQ会员/超级QQ/各种钻</a></li>
+                      <li><a tabindex="-1" href="#">DNF黑钻</a></li>
+                      <li><a tabindex="-1" href="#">腾讯读书VIP</a></li>
+                      <li><a tabindex="-1" href="#">CF会员</a></li>
+                      <li><a tabindex="-1" href="#">AVA精英</a></li>
+                      <li><a tabindex="-1" href="#">QQ西游VIP</a></li>
+                      <li><a tabindex="-1" href="#">寻仙VIP</a></li>
+                      <li><a tabindex="-1" href="#">Q洛克王国VIP</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">网易</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">网易一卡通</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">完美</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">完美一卡通</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">盛大</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">盛大一卡通</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">战网</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">战网一卡通</a></li>
+                      <li><a tabindex="-1" href="#">魔兽世界</a></li>
+                      <li><a tabindex="-1" href="#">星际争霸II</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">金山</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">金山一卡通</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">九城</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">九城一卡通</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">其他棋牌</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="douniu.jsp">斗牛棋牌银子充值</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">更多...</a></li>
                 </ul>
               </li>
+              <li class="divider-vertical"></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
