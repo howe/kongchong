@@ -24,7 +24,7 @@ public class DruidTest {
 		System.out.println("数据源URL : " + jds.getUrl());
 
 		System.out.println(jds.getConnectionStat().getConnectLastTime());
-		System.out.println(JdbcDataSourceStat.getStatFilter(dataSource).getConnectionActiveCount());
+		//System.out.println(JdbcDataSourceStat.getStatFilter(dataSource).getConnectionActiveCount());
 
 		// System.out.println("最大连接活动数 : "
 		// + jds.getStatFilter(dataSource).getConnectionConnectingMax());

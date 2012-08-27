@@ -23,12 +23,16 @@
           <li><a href="#">Link</a></li>
           <li><a href="#">Link</a></li>
           <li class="nav-header">Sidebar</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+          <li class="dropdown-submenu">
+            <a tabindex="-1" href="#">More options</a>
+            <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Second level link</a></li>
+                    <li><a tabindex="-1" href="#">Second level link</a></li>
+                    <li><a tabindex="-1" href="#">Second level link</a></li>
+                    <li><a tabindex="-1" href="#">Second level link</a></li>
+                    <li><a tabindex="-1" href="#">Second level link</a></li>
+            </ul>
+          </li>
           <li class="divider"></li>
           <li><a href="#">帮助</a></li>
         </ul>
