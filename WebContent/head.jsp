@@ -3,10 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="空中充值系统">
-<meta name="author" content="@howechiang">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="空中充值系统" />
+<meta name="author" content="@howechiang" />
     <!-- Le styles -->
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
