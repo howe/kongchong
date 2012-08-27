@@ -23,7 +23,7 @@ public class Common {
 	/** 生成随机字符串（数字加字母） */
 	public String generatRandomStrs(int length) {
 
-		char[] numAndLett = ("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
+		char[] numAndLett = ("123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
 
 		Random random = new Random();
 		StringBuilder randomStrs = new StringBuilder();
@@ -88,7 +88,7 @@ public class Common {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new Common().generatSerialNumber(10));// 打印生成的序列号
+		System.out.print("DNW"+new Common().generatSerialNumber(10)+"A"+" ");// 打印生成的序列号		
 		System.out.println(new Common().generatPassword(10));// 打印生成的密码
 	}
 
