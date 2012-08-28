@@ -36,7 +36,7 @@
             <a class="weibo" href="http://weibo.com/100110566" title="新浪微博"></a>&nbsp; 
             <a class="qq" href="http://wpa.qq.com/msgrd?v=3&uin=100110566&site=qq&menu=yes" title="即时通讯" target="_blank"></a>&nbsp;
             <a class="mail" href="mailto:info@esup.cn" title="电子邮件" target="_blank"></a>&nbsp;
-            <a class="qr" href="#qrModal" title="点此放大二维码" data-toggle="modal"></a>
+            <a class="qr" href="#qrModal" title="微信扫一扫" data-toggle="modal"></a>
         </p>
       </footer>
         <div class="modal" id="qrModal" tabindex="-1" role="dialog" aria-labelledby="qrModalLabel" aria-hidden="true" style="display:none; width:200px;" align="center">
