@@ -38,7 +38,7 @@ public class TransportService {
 		}
 
 		Properties properties = new Properties();
-		properties.put("mail.smtp.host", "smtp.ym.163.com");
+		properties.put("mail.smtp.host", "smtp.exmail.qq.com");
 		properties.put("mail.smtp.port", "25");
 		properties.put("mail.transport.protocol", "smtp");
 		properties.put("mail.smtp.auth", "true");
@@ -49,7 +49,7 @@ public class TransportService {
 		InternetAddress from = new InternetAddress(	MimeUtility.encodeText(	email.getFrom(),
 																			"UTF-8",
 																			"B"),
-													MimeUtility.encodeText("约Ta网", "UTF-8", "B"));
+													MimeUtility.encodeText("Esup网游", "UTF-8", "B"));
 
 		message.setFrom(from);
 
