@@ -6,7 +6,7 @@ var ioc = {
 		},
 		fields : {
 			driverClassName : 'com.mysql.jdbc.Driver',
-			url             : 'jdbc:mysql://218.94.158.226:33041/kongchong?useUnicode=true&characterEncoding=UTF-8',
+			url             : 'jdbc:mysql://218.94.158.226:33041/howe?useUnicode=true&characterEncoding=UTF-8',
 			username        : 'howe',
 			password        : '19860322',
 			initialSize     : 10,
