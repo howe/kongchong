@@ -14,7 +14,7 @@
 <%@include file="head.jsp"%>
 <form class="form-horizontal">
   <legend>充值卡查询</legend>
-  <div class="well" style="max-width: 70%; margin: 0 auto 10px;">
+  <div class="well" style="max-width: 75%; margin: 0 auto 10px;">
     <div class="control-group">
       <label class="control-label" for="inputEmail">充值卡号</label>
       <div class="controls">
